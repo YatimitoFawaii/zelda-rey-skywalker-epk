@@ -1,0 +1,21 @@
+{
+  "calendarId": "1abe54d4856eb160c2fd50db5eb3222eced87f93220cda2cb0e510e900b28b6c@group.calendar.google.com",
+  "gigPrefix": "(G)",
+  "excludeContains": ["no zelda"],
+  "bands": [
+    {
+      "name": "Basura",
+      "matches": ["basura"]
+    },
+    {
+      "name": "Real Big Top",
+      "matches": ["real big top", "rbt"]
+    }
+  ],
+  "specialLinks": [
+    {
+      "contains": "fallout fringe",
+      "ticketUrl": "https://www.crowdwork.com/e/real-big-top"
+    }
+  ]
+}

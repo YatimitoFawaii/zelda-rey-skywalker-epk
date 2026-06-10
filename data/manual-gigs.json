@@ -1,0 +1,53 @@
+[
+  {
+    "band": "Basura",
+    "date": "2026-06-13",
+    "venue": "New Wave Restaurant",
+    "city": "Bellflower, CA",
+    "source": "Google Calendar"
+  },
+  {
+    "band": "Real Big Top",
+    "date": "2026-06-19",
+    "venue": "Majestic Repertory Theater",
+    "city": "Las Vegas, NV",
+    "ticketUrl": "https://www.crowdwork.com/e/real-big-top",
+    "source": "Google Calendar"
+  },
+  {
+    "band": "Real Big Top",
+    "date": "2026-06-20",
+    "venue": "Majestic Repertory Theater",
+    "city": "Las Vegas, NV",
+    "ticketUrl": "https://www.crowdwork.com/e/real-big-top",
+    "source": "Google Calendar"
+  },
+  {
+    "band": "Basura",
+    "date": "2026-06-26",
+    "venue": "The Rush Bar and Grill",
+    "city": "Lake Forest, CA",
+    "source": "Google Calendar"
+  },
+  {
+    "band": "Basura",
+    "date": "2026-07-24",
+    "venue": "The Concert Lounge",
+    "city": "Riverside, CA",
+    "source": "Google Calendar"
+  },
+  {
+    "band": "Basura",
+    "date": "2026-08-29",
+    "venue": "Rock & Roll Pizza @ Harley's Valley Bowl",
+    "city": "Simi Valley, CA",
+    "source": "Google Calendar"
+  },
+  {
+    "band": "Basura",
+    "date": "2026-11-21",
+    "venue": "McGuffie's Live",
+    "city": "San Diego, CA",
+    "source": "Google Calendar"
+  }
+]

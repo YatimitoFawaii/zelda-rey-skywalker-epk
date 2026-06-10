@@ -1,0 +1,7 @@
+.DS_Store
+.codex_tmp/
+.env
+.env.*
+node_modules/
+deploy/
+*.zip

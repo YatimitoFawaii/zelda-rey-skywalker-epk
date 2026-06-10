@@ -1,0 +1,39 @@
+name: Sync gigs
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  sync-gigs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Sync gig data
+        run: |
+          if [ -z "$GOOGLE_CALENDAR_ICS_URL" ]; then
+            echo "GOOGLE_CALENDAR_ICS_URL is not set; skipping calendar sync."
+            exit 0
+          fi
+          node scripts/sync-gigs.mjs
+        env:
+          GOOGLE_CALENDAR_ICS_URL: ${{ secrets.GOOGLE_CALENDAR_ICS_URL }}
+          GIG_TIMEZONE: America/Los_Angeles
+      - name: Commit updated gigs
+        run: |
+          if git diff --quiet -- data/gigs.json; then
+            echo "No gig changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/gigs.json
+          git commit -m "Update gig data"
+          git push
