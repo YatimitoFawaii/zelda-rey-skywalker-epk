@@ -112,6 +112,16 @@ textarea {
   color: var(--paper);
 }
 
+.nav-patreon {
+  color: var(--gold) !important;
+  font-weight: 850;
+}
+
+.nav-patreon:hover,
+.nav-patreon:focus-visible {
+  color: #ffe18b !important;
+}
+
 .hero {
   position: relative;
   min-height: 600px;
@@ -247,6 +257,17 @@ h3 {
 .button-secondary:hover,
 .button-secondary:focus-visible {
   border-color: var(--teal);
+}
+
+.button-support {
+  border-color: rgba(240, 200, 90, 0.78);
+  background: var(--gold);
+  color: var(--ink);
+}
+
+.button-support:hover,
+.button-support:focus-visible {
+  background: #ffe18b;
 }
 
 .hero-portrait {
@@ -741,17 +762,18 @@ h3 {
 
   .nav-links {
     display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(5, minmax(0, 1fr));
     width: 100%;
-    max-width: 330px;
+    max-width: 430px;
   }
 
   .nav-links a:nth-child(2),
-  .nav-links a:nth-child(3) {
+  .nav-links a:nth-child(3),
+  .nav-links a:nth-child(4) {
     text-align: center;
   }
 
-  .nav-links a:nth-child(4) {
+  .nav-links a:nth-child(5) {
     text-align: right;
   }
 
