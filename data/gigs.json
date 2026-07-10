@@ -15,9 +15,23 @@
   },
   {
     "band": "Basura",
+    "date": "2026-08-01",
+    "venue": "Harvard Yard Bar",
+    "city": "Los Angeles, CA",
+    "source": "Google Calendar"
+  },
+  {
+    "band": "Basura",
     "date": "2026-08-29",
     "venue": "Rock & Roll Pizza @ Harley's Valley Bowl",
     "city": "Simi Valley, CA",
+    "source": "Google Calendar"
+  },
+  {
+    "band": "Real Big Top",
+    "date": "2026-09-11",
+    "venue": "The Offbeat Bar",
+    "city": "Los Angeles, CA",
     "source": "Google Calendar"
   },
   {
