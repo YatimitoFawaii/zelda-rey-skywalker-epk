@@ -344,7 +344,7 @@ h3 {
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 18px;
 }
 
@@ -397,6 +397,10 @@ h3 {
 
 .project-card-rbt img {
   object-position: 50% 46%;
+}
+
+.project-card-yfm img {
+  padding: 28px 28px 92px;
 }
 
 .project-label,
