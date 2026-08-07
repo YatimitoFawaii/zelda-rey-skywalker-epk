@@ -10,6 +10,14 @@
     {
       "name": "Real Big Top",
       "matches": ["real big top", "rbt"]
+    },
+    {
+      "name": "Your First Mistake",
+      "matches": ["your first mistake"]
+    },
+    {
+      "name": "Little Big Top",
+      "matches": ["little big top"]
     }
   ],
   "specialLinks": [

@@ -53,6 +53,8 @@ Recommended event title format:
 (G) Basura - Venue Name
 (G) Real Big Top - Fallout Fringe Festival
 (G) RBT - Venue Name
+(G) Your First Mistake - Venue Name
+(G) Little Big Top - Venue Name
 ```
 
 Recommended location format:
@@ -61,7 +63,9 @@ Recommended location format:
 Venue Name, Street Address, City, ST ZIP
 ```
 
-The sync script only includes events with the `(G)` prefix and only keeps Basura or Real Big Top/RBT matches. It writes band, date, venue, and city, with no time displayed.
+The sync script only includes events with the `(G)` prefix and keeps Basura,
+Real Big Top/RBT, Your First Mistake, and Little Big Top matches. It writes
+band, date, venue, and city, with no time displayed.
 Events containing `No Zelda` are excluded from the public EPK.
 
 Set this GitHub repository secret:

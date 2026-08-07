@@ -1,5 +1,12 @@
 [
   {
+    "band": "Your First Mistake",
+    "date": "2026-08-22",
+    "venue": "Lucky Strike Hollywood",
+    "city": "Hollywood, CA",
+    "source": "Google Calendar"
+  },
+  {
     "band": "Basura",
     "date": "2026-08-29",
     "venue": "Rock & Roll Pizza @ Harley's Valley Bowl",
@@ -11,6 +18,41 @@
     "date": "2026-09-04",
     "venue": "The Offbeat Bar",
     "city": "Los Angeles, CA",
+    "source": "Google Calendar"
+  },
+  {
+    "band": "Your First Mistake",
+    "date": "2026-09-04",
+    "venue": "The Offbeat Bar",
+    "city": "Los Angeles, CA",
+    "source": "Google Calendar"
+  },
+  {
+    "band": "Little Big Top",
+    "date": "2026-09-06",
+    "venue": "The 4th Horseman",
+    "city": "Long Beach, CA",
+    "source": "Google Calendar"
+  },
+  {
+    "band": "Little Big Top",
+    "date": "2026-09-25",
+    "venue": "The Queen Mary",
+    "city": "Long Beach, CA",
+    "source": "Google Calendar"
+  },
+  {
+    "band": "Little Big Top",
+    "date": "2026-10-09",
+    "venue": "The Queen Mary",
+    "city": "Long Beach, CA",
+    "source": "Google Calendar"
+  },
+  {
+    "band": "Little Big Top",
+    "date": "2026-10-23",
+    "venue": "The Queen Mary",
+    "city": "Long Beach, CA",
     "source": "Google Calendar"
   },
   {
