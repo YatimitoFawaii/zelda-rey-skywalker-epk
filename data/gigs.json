@@ -12,5 +12,12 @@
     "venue": "McGuffie's Live",
     "city": "San Diego, CA",
     "source": "Google Calendar"
+  },
+  {
+    "band": "Real Big Top",
+    "date": "2027-02-21",
+    "venue": "Doll Hut",
+    "city": "Anaheim, CA",
+    "source": "Google Calendar"
   }
 ]
