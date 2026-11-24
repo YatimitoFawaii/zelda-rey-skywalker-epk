@@ -1,6 +1,13 @@
 [
   {
     "band": "Real Big Top",
+    "date": "2026-12-08",
+    "venue": "LA Bufadora Bar",
+    "city": "Los Angeles, CA",
+    "source": "Google Calendar"
+  },
+  {
+    "band": "Real Big Top",
     "date": "2027-02-05",
     "venue": "The Redwood Bar & Grill",
     "city": "Los Angeles, CA",
